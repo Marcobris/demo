@@ -1,7 +1,7 @@
 import os
 import pandas as pd
 
-folder_path = "path/to/your/html_files"
+folder_path = "../filings"  
 data = []
 
 for filename in os.listdir(folder_path):
