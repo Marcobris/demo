@@ -1,7 +1,7 @@
 import os
 import pandas as pd
 
-folder_path = "../filings"  
+folder_path = "filings"  
 data = []
 
 for filename in os.listdir(folder_path):
